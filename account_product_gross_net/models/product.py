@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from odoo import models, fields, api
-from odoo.tools.float_utils import float_round
-from odoo.addons import decimal_precision as dp
+from openerp import models, fields, api
+from openerp.tools.float_utils import float_round
+from openerp.addons import decimal_precision as dp
 import logging
 
 _logger = logging.getLogger(__name__)
